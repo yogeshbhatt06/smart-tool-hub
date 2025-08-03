@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Tool Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><span>🔧</span>Smart Tool Hub</div>
+    <div class="toggle-container">
+      <button id="themeToggle" title="Toggle light/dark mode">🌙</button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>All Your Productivity Tools, One Place</h1>
+    <p>Converters & calculators to make your daily tasks faster and smarter! Click a tool to get started.</p>
+  </section>
+
+  <main>
+    <div class="tools-grid">
+      <div class="card" data-tool="Length Converter">
+        <div class="tool-icon" style="color:#6c5ce7">📏</div>
+        <h2>Length Converter</h2>
+        <p>Convert Kilometers↔Miles, Meters↔Feet, and more.</p>
+      </div>
+      <div class="card" data-tool="Currency Converter">
+        <div class="tool-icon" style="color:#00b894">💱</div>
+        <h2>Currency Converter</h2>
+        <p>Convert INR, USD, EUR, and other currencies with static rates.</p>
+      </div>
+      <div class="card" data-tool="Password Generator">
+        <div class="tool-icon" style="color:#fd79a8">🔒</div>
+        <h2>Password Generator</h2>
+        <p>Generate strong, customizable passwords instantly.</p>
+      </div>
+      <div class="card" data-tool="IP to Binary">
+        <div class="tool-icon" style="color:#0984e3">🌐</div>
+        <h2>IP Address to Binary</h2>
+        <p>Convert IPv4 addresses to their binary format.</p>
+      </div>
+      <div class="card" data-tool="Temperature Converter">
+        <div class="tool-icon" style="color:#ff7675">🌡️</div>
+        <h2>Temperature Converter</h2>
+        <p>Convert between Celsius, Fahrenheit, and Kelvin easily.</p>
+      </div>
+      <div class="card" data-tool="Number System Converter">
+        <div class="tool-icon" style="color:#00b894">🔢</div>
+        <h2>Binary/Decimal/Hex Converter</h2>
+        <p>Switch smoothly between binary, decimal, and hexadecimal systems.</p>
+      </div>
+      <div class="card" data-tool="Prime Number Checker">
+        <div class="tool-icon" style="color:#fdcb6e">🧮</div>
+        <h2>Prime Number Checker</h2>
+        <p>Find out instantly if a number is prime or not.</p>
+      </div>
+      <div class="card" data-tool="Age Calculator">
+        <div class="tool-icon" style="color:#e17055">🎂</div>
+        <h2>Age Calculator</h2>
+        <p>Calculate your exact age based on your birthdate.</p>
+      </div>
+      <div class="card" data-tool="BMI Calculator">
+        <div class="tool-icon" style="color:#00b894">⚖️</div>
+        <h2>BMI Calculator</h2>
+        <p>Quickly check your BMI and track your health.</p>
+      </div>
+      <div class="card" data-tool="Factorial Calculator">
+        <div class="tool-icon" style="color:#55efc4">✖️</div>
+        <h2>Factorial Calculator</h2>
+        <p>Get the factorial of any number instantly.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal for tool content -->
+  <div class="modal" id="toolModal">
+    <div class="modal-content" id="modalContent">
+      <button class="close-btn" id="closeModal" title="Close">&times;</button>
+      <h2 id="toolTitle">Tool Name</h2>
+      <div id="toolBody">Tool content will be implemented here.</div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Smart Tool Hub | Built by Yogesh Bhatt
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
