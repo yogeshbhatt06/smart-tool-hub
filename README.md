@@ -21,7 +21,10 @@
 
 ## 🖥️ Preview
 
-![Screenshot](./screenshot.png)
+![Screenshot]<img width="1365" height="765" alt="Image" src="https://github.com/user-attachments/assets/0c173cba-b862-458c-8c43-8ab241ca3064" />
+<img width="1365" height="767" alt="Image" src="https://github.com/user-attachments/assets/de221e91-3e22-43ca-85b6-0afb40af1c80" />
+<img width="1365" height="767" alt="Image" src="https://github.com/user-attachments/assets/b484c36d-eb12-4437-ac7c-3f077b7de2f9" />
+<img width="1365" height="767" alt="Image" src="https://github.com/user-attachments/assets/ad365bcc-7651-408a-aec5-845524d05993" />
 
 ---
 
